@@ -1,0 +1,151 @@
+.title {
+    font-family: juniper-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(168, 212, 212);
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1em;
+}
+
+
+a {   
+    color: white;   
+}
+
+a:active {
+    color: black;
+}
+
+a[tabindex]:focus {
+    color:black;
+    outline-style: double;
+}
+
+.article{
+    font-family: bookmania,serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2em;
+    font-style: normal;
+    padding:20px;
+    margin: 100px;
+    color: grey;
+}
+/* .article{
+    
+        opacity: 1;
+        -webkit-transition: all .5s ease-in 3s;
+        transition: all .5s ease-in 3s;
+    
+   
+} */
+.info{
+    font-family: bookmania,serif;
+    font-weight: 400;
+    position: relative;
+    line-height: 3.5em;
+    font-style: normal;
+    background-color: rgb(252, 224, 205);
+    color:rgb(253, 253, 243);
+    padding:20px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.3em;
+    border-top: 10px;
+    justify-content: space-around;
+    transition: color 1s linear, background 1s linear;
+
+
+}
+.footer{
+    font-family: bookmania,serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2em;
+    font-style: normal;
+    padding:120px;
+    margin: 0px;
+    color:grey;
+}
+
+.museum{
+    font-size: 66px ;
+    
+}
+
+.address{
+    font-family: bookmania,serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 2em;
+    font-style: italic;
+
+}
+
+.websites{
+    display:inline-flex;
+    padding: 5px;
+   
+}
+
+@media screen and (max-width: 700px){
+    body{
+        background: rgb(129, 127, 127);
+    }
+
+
+.info a {
+    font-size: 16px;
+    display:flex;
+    width: 90%;
+    padding: 15px;
+    margin: 20px;
+    
+}
+
+.article{
+    font-family: bookmania,serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 3em;
+    font-style: normal;
+    padding:10px;
+    margin: 50px;
+    color: white;
+}
+
+.address{
+    font-family: bookmania,serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-style: italic;
+
+}
+
+.museum{
+    font-size: 53px ;
+}
+
+.footer{
+    font-family: bookmania,serif;
+    font-weight: 400;
+    font-size: 0.3em;
+    line-height: 2em;
+    font-style: normal;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+    color:white;
+}
+
+}
+
